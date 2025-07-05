@@ -6,7 +6,7 @@ pipeline {
    stages{
     stage('CompileandRunSonarAnalysis') {
             steps {	
-		sh 'mvn clean verify sonar:sonar -Dsonar.projectKey=asgbuggywebapp -Dsonar.organization=asgbuggywebapp -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=9325586a8f1d1adf470b908a46156f5844'
+		sh 'mvn clean verify sonar:sonar -Dsonar.projectKey=born2los3built2win -Dsonar.organization=born2los3built2win -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=fa11c57ad3b2bc1a57732b5b9a1b949a617572f1'
 			}
         } 
   }
